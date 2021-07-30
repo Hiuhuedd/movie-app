@@ -1,0 +1,131 @@
+   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+   @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+    ::-webkit-scrollbar {
+       width: 8px;
+   }
+   
+    ::-webkit-scrollbar-track {
+       box-shadow: inset 0 0 1px rgb(54, 53, 53);
+   }
+   
+    ::-webkit-scrollbar-thumb {
+       border-radius: 2px;
+       background: linear-gradient(315deg, #c1eee4 0%, #d7eff7 4%);
+   }
+   
+   body {
+       background-color: rgb(0, 0, 0);
+       font-family: 'poppins';
+   }
+   
+   .maxwidth {
+       height: 100vh;
+       background: url(header.jpg) no-repeat center center / cover;
+   }
+   
+   .bc {
+       background: #000000a0;
+       background-size: cover;
+       width: 100%;
+       height: 100vh;
+   }
+   
+   .container .navbar-header h2 {
+       color: #fff;
+       text-transform: capitalize;
+       font-weight: normal;
+   }
+   
+   .container .navbar-header h2 span {
+       color: rgb(236, 89, 89);
+       font-size: 15px;
+       text-transform: capitalize;
+       font-weight: normal;
+   }
+   
+   .container .jumbotron {
+       background-color: rgb(0, 0, 0);
+       font-family: 'poppins';
+       background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.01), rgba(248, 227, 227, 0.2));
+   }
+   
+   .container .jumbotron h3 {
+       color: rgb(253, 252, 252);
+       font-family: 'poppins';
+       text-transform: capitalize;
+       font-weight: normal;
+   }
+   
+   .container .jumbotron input {
+       width: 90%;
+       color: #fff;
+       border-radius: 6px;
+       background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.01), rgba(248, 227, 227, 0.2));
+   }
+   
+   .container .jumbotron i {
+       padding: 10px;
+       font-size: 20px;
+       font-weight: normal;
+       color: rgb(255, 254, 254);
+       margin-left: 5px;
+       border-radius: 6px;
+       border: .2px solid rgb(253, 252, 252);
+       cursor: pointer;
+       transition: all .3s ease;
+   }
+   
+   .container .jumbotron i:hover {
+       color: rgb(7, 7, 7);
+       background-color: #fff;
+       transform: scale(0.9);
+   }
+   
+   .movies img,
+   .movie img {
+       width: 100%;
+   }
+   
+   @media (min-width: 960px) {
+       .movies .column .well {
+           height: 90vh;
+       }
+       .movies .column .well img {
+           height: 60vh;
+       }
+   }
+   
+   @media (max-width: 960px) {
+       .movies .column .well {
+           height: 60vh;
+       }
+       .movies .column .well img {
+           height: 40vh;
+       }
+   }
+   
+   @media (max-width: 770px) {
+       .movies .column .well {
+           height: 70vh;
+       }
+       .movies .column .well img {
+           height: 50vh;
+       }
+   }
+   
+   @media (max-width: 575px) {
+       .movies .column .well {
+           height: 90vh;
+       }
+       .movies .column .well img {
+           height: 70vh;
+       }
+       .well .poster {
+           margin-left: ;
+           width: 60%;
+       }
+   }
+   /* .movies .column .well img {
+       height: 30vh;
+   } */

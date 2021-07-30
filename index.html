@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Movie App</title>
+</head>
+
+<body>
+    <div class="maxwidth">
+        <div class="background">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <h2>hiuhu. <br><span>theatre</span> </h2>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="jumbotron">
+                    <h3 class="text-center">Find movies</h3>
+                    <form class="d-flex" id="searchForm">
+                        <input id="searchText" class="form-control w-90" type="text" placeholder="Search movies">
+                        <i id="search" class="fas fa-search"></i>
+                    </form>
+                </div>
+            </div>
+            <div class="container mt-0">
+                <div id="movies" class="movies row"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
